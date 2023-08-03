@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url("imagem/index/fundo1.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.titulo {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10%;
+}
+.titulo p{
+    font-family: 'Quicksand', sans-serif;
+    font-size:40px;
+    color:white;
+    margin: 0;
+    
+}
+.titulo h1{
+    font-family: 'Raleway', sans-serif;
+    font-size:80px;
+    color:white;
+    margin: 0;
+    text-align: left;
+}
+
+.nav {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:15px;
+    height: 50px;
+    overflow: hidden;
+}
+.nav a{
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    color:white;
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a:hover{
+    background-color: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+.principal{
+    background-color: rgb(235, 235, 235);
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap:5px;
+}
+.principal h1{
+    font-family: 'Quisckand', sans-serif;
+    font-size:50px;
+    color:purple;
+    margin: 0;
+    text-align: left;
+}
+.principal p{
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    color:black;
+    margin: 0;
+}
+.links{
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+    width: 25%;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.193);
+}
+.linkscontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap:10px;
+}
+
+.principal2{
+    background-color: rgb(235, 235, 235);
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap:5px;
+}
+.principal2 h1{
+    font-family: 'Raleway', sans-serif;
+    font-size:50px;
+    color:black;
+    margin: 0;
+    text-align: left;
+}
+.principal2 p{
+    font-family: 'Quicksand', sans-serif;
+    font-size:40px;
+    color:black;
+    margin: 0;
+    
+}
+.cursoscontainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    width: 100%;
+}
+
+.informatica{
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+    width: 35%;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.193);
+}
+.informatica p{
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    color: black;
+    margin: 15;
+    text-align: left;
+    width: 85%;
+    border-bottom: 2px solid purple;
+    padding: 5px 17px;
+}
+.informatica h1{
+    font-family: 'Raleway', sans-serif;
+    font-size:30px;
+    color:rgb(0, 0, 0);
+    margin: 0;
+}
+.informatica a{
+    text-decoration: none;
+    padding: 5px;
+    width: 150px;
+    background: linear-gradient(90deg, rgb(184, 30, 153) 0%, rgb(122, 16, 161) 49%, rgb(112, 92, 198) 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:rgb(235, 220, 232);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+}
+.informatica a:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+
+}
+.informaticaimg{
+    background-image: url("imagem/index/informatica.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 320px;
+    width: 30%;
+    box-shadow: -75px 0px 0px -40px #8e3190;
+    margin-left: 5%;
+}
+
+.cursoscontainer2{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.eletronicaimg{
+    background-image: url("imagem/index/eletronica.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 320px;
+    width: 30%;
+    box-shadow: 75px 0px 0px -40px #8e3190;
+    margin-right: 5%;
+}
+.eletrotecnicaimg{
+    background-image: url("imagem/index/eletrotecnica.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 320px;
+    width: 30%;
+    box-shadow: -75px 0px 0px -40px #8e3190;
+    margin-left: 5%;
+}
+.teleimg{
+    background-image: url("imagem/index/tele.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 320px;
+    width: 30%;
+    box-shadow: 75px 0px 0px -40px #8e3190;
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
